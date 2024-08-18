@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./assets/FES.svg" alt="">
+            <img src="./assets/FES.svg" class = "logo">
 
             <ul>
                 <li> <a href="#about">about</a></li>
@@ -17,45 +18,70 @@
             </ul>
         </nav>
         <header>
-            <div>
+            
+            <div class="row">
+
+
+
+            <div class = "homedescription">
                 <h1>best place 2 learn coding</h1>
-                <p>learn 2 code in a fun and engaging way</p>
-                <button>Start now</button>
+                <p class="subheading">learn 2 code in a fun and engaging way</p>
+                <button class = "homedescripotonbutton">Start now</button>
             </div>
 
             <figure>
                 <img src="./assets/laptop.png" alt="laptop">
             </figure>
+        </div>
         </header>
+    
     </section>
 
     <main>
         <section id = "about">
             <h2> About</h2>
-            <div>
-                <p>
+
+            <div class="row">
+
+
+
+            <div class = "section-description">
+
+
+            <div class = "section-description-wrapper">
+                <p class = "sectiondescriptiontext">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem omnis, inventore illum alias ex est rerum neque deserunt. Nostrum soluta rerum necessitatibus quae esse quisquam. Labore cupiditate reprehenderit qui.
                 </p>
-                <p>
+                <p class = "sectiondescriptiontext">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem omnis, inventore illum alias ex est rerum neque deserunt. Nostrum soluta rerum necessitatibus quae esse quisquam. Labore cupiditate reprehenderit qui.
                 </p>
             </div>
-            <figure>
+
+            <figure class = "aboutimgwrapper">
                 <img src="./assets/about.jpg" alt="">
             </figure>
+        </div>
+    </div>
+
         </section>
         <section id = "discord">
             <h2>Discord</h2>
-            <figure>
+
+            <div class="row">
+
+            <div class = "section-description">
+            <figure class = "aboutimgwrapper">
                 <img src="./assets/discord.png" alt="">
 
             </figure>
 
             <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestias alias adipisci, expedita ullam sapiente. Fuga cupiditate officia iure, voluptatibus quisquam suscipit nobis labore facere eum culpa omnis, eius iusto!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestias alias adipisci, expedita ullam sapiente. Fuga cupiditate officia iure, voluptatibus quisquam suscipit nobis labore facere eum culpa omnis, eius iusto!</p>
+                <p class = "sectiondescriptiontext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestias alias adipisci, expedita ullam sapiente. Fuga cupiditate officia iure, voluptatibus quisquam suscipit nobis labore facere eum culpa omnis, eius iusto!</p>
+                <p class = "sectiondescriptiontext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestias alias adipisci, expedita ullam sapiente. Fuga cupiditate officia iure, voluptatibus quisquam suscipit nobis labore facere eum culpa omnis, eius iusto!</p>
 
             </div>
+        </div>
+    </div>
         </section>
 
         <section id = "contact">
@@ -63,10 +89,12 @@
 
             <form action="">
                 <span>Email</span>
-                <input type="text" placeholder="email">
+                <input type="email" placeholder="email">
 
                 <span>Message</span>
-                <textarea type="text" placeholder="email">
+                <textarea type="text" placeholder="email"> </textarea>
+                    <button>Contact us!</button>
+
 
             </form>
 
@@ -74,13 +102,13 @@
     </main>
 
     <footer>
-        <img src="./assets/FES.svg" alt="">
+        <img class = "footerlogo" src="./assets/FES.svg" alt="">
 
-        <div>
-            <a href="#about"> About</a>
-            <a href="#discord"> Discord</a>
-            <a href="#contact"> Contact</a>
-            <a href=""> Courses</a>
+        <div class = "footerlinks">
+            <a class = "footerlink" href="#about"> About</a>
+            <a class = "footerlink" href="#discord"> Discord</a>
+            <a class = "footerlink" href="#contact"> Contact</a>
+            <a class = "footerlink" href=""> Courses</a>
 
         </div>
         <p>A Jahan Taila Production.</p>
